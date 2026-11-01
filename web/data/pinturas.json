@@ -1,0 +1,32 @@
+{
+  "_aviso": "Datos iniciales. Códigos y nombres procedentes de listados de tiendas, NO contrastados con la carta oficial de Vallejo. Los colores 'hex' son aproximaciones visuales, no valores oficiales. Verifica código y nombre con el bote antes de fiarte. Citadel y AK pendientes de añadir.",
+  "marcas": ["Vallejo", "Citadel", "AK"],
+  "pinturas": [
+    {"id": "vallejo-mc-70950", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.950", "nombre": "Black", "hex": "#141414", "notas": "Sin contrastar en fuente"},
+    {"id": "vallejo-mc-70951", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.951", "nombre": "White", "hex": "#F2F2EE", "notas": "Sin contrastar en fuente"},
+    {"id": "vallejo-mc-70746", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.746", "nombre": "Chestnut Brown", "hex": "#6B4A34"},
+    {"id": "vallejo-mc-70752", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.752", "nombre": "Infantry Blue", "hex": "#3E5566"},
+    {"id": "vallejo-mc-70764", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.764", "nombre": "Military Yellow", "hex": "#B9A545"},
+    {"id": "vallejo-mc-70767", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.767", "nombre": "Desert Brown", "hex": "#A67B52"},
+    {"id": "vallejo-mc-70861", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.861", "nombre": "Gloss Black", "hex": "#101010"},
+    {"id": "vallejo-mc-70909", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.909", "nombre": "Vermilion", "hex": "#E0462B"},
+    {"id": "vallejo-mc-70930", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.930", "nombre": "Dark Blue", "hex": "#1F3A78"},
+    {"id": "vallejo-mc-70943", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.943", "nombre": "Grey Blue", "hex": "#7F93A6"},
+    {"id": "vallejo-mc-70928", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.928", "nombre": "Light Flesh", "hex": "#E8B99A"},
+    {"id": "vallejo-mc-70908", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.908", "nombre": "Carmine Red", "hex": "#9B1B2A"},
+    {"id": "vallejo-mc-70815", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.815", "nombre": "Basic Skintone", "hex": "#D9A07E"},
+    {"id": "vallejo-mc-70857", "marca": "Vallejo", "linea": "Model Color", "codigo": "70.857", "nombre": "Golden Olive", "hex": "#7D7437"},
+    {"id": "vallejo-gc-72111", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.111", "nombre": "Nocturnal Red", "hex": "#7A1F2B"},
+    {"id": "vallejo-gc-72101", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.101", "nombre": "Off White", "hex": "#E9E4D4"},
+    {"id": "vallejo-gc-72066", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.066", "nombre": "Tan", "hex": "#C4A574"},
+    {"id": "vallejo-gc-72096", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.096", "nombre": "Verdigris", "hex": "#4FA08F"},
+    {"id": "vallejo-gc-72109", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.109", "nombre": "Toxic Yellow", "hex": "#E6D21E"},
+    {"id": "vallejo-gc-72120", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.120", "nombre": "Abyssal Turquoise", "hex": "#1E8C8A"},
+    {"id": "vallejo-gc-72052", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.052", "nombre": "Silver", "hex": "#B9BDC2"},
+    {"id": "vallejo-gc-72053", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.053", "nombre": "Chainmail Silver", "hex": "#A7ADB3"},
+    {"id": "vallejo-gc-72057", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.057", "nombre": "Bright Bronze", "hex": "#B07A3A"},
+    {"id": "vallejo-gc-72058", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.058", "nombre": "Brassy Brass", "hex": "#B5923F"},
+    {"id": "vallejo-gc-72160", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.160", "nombre": "Fluo Turquoise", "hex": "#2FD3C8"},
+    {"id": "vallejo-gc-72161", "marca": "Vallejo", "linea": "Game Color", "codigo": "72.161", "nombre": "Cold Green", "hex": "#5FA58A"}
+  ]
+}

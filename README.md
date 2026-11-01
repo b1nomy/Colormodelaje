@@ -39,3 +39,39 @@ Para añadir pinturas (Citadel, AK, más referencias de Vallejo) basta con añad
 - Los códigos y nombres iniciales proceden de listados de tiendas, no de la carta oficial. Verifícalos con el bote.
 - Los valores `hex` son aproximaciones visuales, no colores oficiales.
 - El cálculo es un promedio ponderado en espacio lineal. No simula la mezcla sustractiva real de pigmentos, así que el resultado es orientativo.
+
+## Versión web / móvil (`web/`)
+
+Versión estática (HTML + JS, sin servidor). Funciona sin conexión después de la primera carga, gracias al service worker.
+
+Probar en el PC:
+```bash
+cd web && python3 -m http.server 8000
+```
+Abre `http://localhost:8000`.
+
+Instalar en Android sin APK: abre la URL de la app en Chrome, menú ⋮ → "Añadir a pantalla de inicio". Para que funcione sin conexión, la primera carga tiene que hacerse con red.
+
+### APK para Android (Capacitor)
+
+Requisitos en tu PC: Node.js 18+, Android Studio (incluye el SDK y Java).
+
+```bash
+npm install
+npx cap add android      # solo la primera vez: crea android/
+npx cap sync android     # copia web/ dentro del proyecto Android
+npx cap open android     # abre Android Studio → Build → Build APK(s)
+```
+
+El APK queda en `android/app/build/outputs/apk/debug/app-debug.apk`. Para instalarlo en el móvil, cópialo y ábrelo (hay que permitir "instalar apps de orígenes desconocidos").
+
+Este APK lleva dentro la app completa, así que no necesita conexión.
+
+Cuando cambies algo en `web/`, sube `CACHE_VERSION` en `web/sw.js` y vuelve a ejecutar `npx cap sync android`.
+
+### Tests de la mezcla
+
+```bash
+npm test
+```
+Comprueban que la versión JS da los mismos colores que `mezcla.py`.
